@@ -9,9 +9,8 @@ The registration is available via github, so you can easily create an account, a
 
 Phabricator location: [Link](http://project.zolli.hu)
 
-## Coding Guideline
 
-### Basic definitions
+## Basic definitions
 
  * Indent with **4 space** instead of tabs. 
  * Where its possible use simple quotation mark ( ' ) to define strings.
@@ -19,7 +18,7 @@ Phabricator location: [Link](http://project.zolli.hu)
  * PHP closing tag **must be** omitted when the file only contains PHP code.
  * Soft line length is 120 character, but no hard limitation on line length.
 
-### Location of namespace definition
+## Location of namespace definition
 Namespace definition must be going to the same line as the php opening tag (usually this is the first line)
 and the opening tag and the definition must be separated by **one space**.
 
@@ -31,7 +30,7 @@ Namespace naming must be match to [PSR-4](https://github.com/php-fig/fig-standar
    ...
 ```
 
-### PHP7 Declare statements
+## PHP7 Declare statements
 The `declare` statements immediately follows the opening tag / namespace definition, without blank line.
 If multiple `declare` statement is used each going to own line. Definition group **must be** followed by a blank line.
 
@@ -42,7 +41,7 @@ declare(strict_types=1);
     class { ... }
 ```
 
-### Class importing
+## Class importing
 
 #### Importing before PHP7
 
@@ -103,7 +102,7 @@ use Another\ClassName;
 ```
 
 
-### Class comments and Package definition
+## Class comments and Package definition
 
 #### Class comments
 
@@ -170,7 +169,7 @@ The @subpackage is: Module
 The sub-package not only 1 level deep, when the sub-package names is more than 1 deep
 each level separated by **one** '**\\**' (backslash) character.
 
-### Class, traits and interface definition
+## Class, traits and interface definition
 
 Class, traits and interface names must be in **PascalCase** format, in the class
 naming you should try to assign a name that fully describe its functionality. 
@@ -199,7 +198,7 @@ class HelloWorld extends World implements GreetingsInterface {
 ...
 ```
 
-### Property naming and comments
+## Property naming and comments
 
 The properties name must be formatted with **camelCase** and all property
 **must have** a valid docBlock. All property docBlock must contains at least
@@ -234,7 +233,7 @@ class Hello {
 ..
 ```
 
-### Constants and keywords
+## Constants and keywords
 
 Keywords always be defined as *UPPERCASE* format. Same for constants
 but spaces must be replaced with _ (underscore) character.
@@ -264,7 +263,7 @@ class Hello {
 
 ```
 
-#### Method and function definition
+## Method and function definition
 
 Methods **must be** defined in **camelCase** format and the visibility definition is **must be** the first 
 keyword, additional modifiers, like abstract, static, final going **after** the visibility definition.
@@ -372,7 +371,7 @@ must be break to new lines.
 ...
 ```
 
-### Array syntax
+## Array syntax
 
 Always us the short array syntax that introduced in PHP 5.3. The array element **must be** going 
 to new line after the definition and each element **must be** going to a new line 
@@ -389,7 +388,7 @@ class Hello {
     ];
 ```
 
-### Function calls
+## Function calls
 
 When a function call with all arguments is longer then the 120 character line limit arguments must be 
 broken down to separated lines with one indention from the start of the function call.
@@ -408,7 +407,7 @@ The method closing ')' **must be** going to the same line as the last argument.
 ...
 ```
 
-### If, else, elseif statements
+## If, else, elseif statements
 
 The if body must be indented with on indention from the definition. Use `else if` instead of PHP 
 short definition (`elseif`).
@@ -429,7 +428,7 @@ Opening braces **must be** going to the same line as the statement.
 ...
 ```
 
-### Switch statements
+## Switch statements
 
 Switch statements open bracket must be going to the same line as definition. `case` **must be** 
 indented with one indention from the main switch definition.
@@ -460,7 +459,7 @@ and **must be** separated be one blank line.
 ...
 ```
 
-### While and do-while
+## While and do-while
 
 Closing braces must be going to the same line as the definition, the body must be indented with
 one indention from the definition. 
@@ -481,7 +480,7 @@ In a do-while block, tha while keyword condition **must not** be separated white
 ...
 ```
 
-### For and Foreach
+## For and Foreach
 
 Closing braces must be going to the same line as the definition, the body must be indented with
 one indention from the definition. 
@@ -502,7 +501,7 @@ In a for loop the three argument that separated with ';', the semicolon must be 
 ...
 ```
 
-### Try, catch, finally block
+## Try, catch, finally block
 
 Closing braces must be going to the same line as the definition, the body must be indented with
 one indention from the definition. 
@@ -528,7 +527,7 @@ opening bracket.
 ...
 ```
 
-### Operators
+## Operators
 All of the binary and ternary operators **must be** surrounded with spaces.
 
 Includes:
