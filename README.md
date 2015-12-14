@@ -12,6 +12,13 @@ a guide for basic code structure. But soon it will contains many example code.
 
 - [Contribution Guide](https://github.com/BuildrPHP/Contribution/blob/master/CONTRIBUTING.md)
 
+### ToDo
+
+- [ ] Add Closures
+- [ ] Add anonymous classes
+- [ ] Add example codes
+- [ ] Add PHP7 strict typing section
+
 ### License
 
 BuildR and its components are licensed under GPL v3 ([Read](https://raw.githubusercontent.com/BuildrPHP/Contribution/master/LICENSE.md))
