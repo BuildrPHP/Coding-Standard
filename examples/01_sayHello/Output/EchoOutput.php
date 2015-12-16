@@ -29,7 +29,7 @@ class EchoOutput implements OutputInterface, TransformableInterface {
      * @inheritDoc
      */
     public function output($input) {
-
+        echo $input;
     }
 
 }

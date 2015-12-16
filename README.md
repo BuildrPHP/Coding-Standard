@@ -12,6 +12,10 @@ a guide for basic code structure. But soon it will contains many example code.
 
 - [Contribution Guide](https://github.com/BuildrPHP/Contribution/blob/master/CONTRIBUTING.md)
 
+### Examples
+
+1. [sayHello](https://github.com/BuildrPHP/Contribution/blob/master/examples/01_sayHello)
+
 ### ToDo
 
 - [ ] Add Closures
