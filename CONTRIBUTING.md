@@ -31,8 +31,8 @@ Namespace naming must be match to [PSR-4](https://github.com/php-fig/fig-standar
 ```
 
 ## PHP7 Declare statements
-The `declare` statements immediately follows the opening tag / namespace definition, without blank line.
-If multiple `declare` statement is used each going to own line. Definition group **must be** followed by a blank line.
+The php opening tag (and optionally, namespace declaration) **must be** separated with 1 blank line from the
+`declare` block, and this block **must be** followed by a blank line.
 
 ```php
 <?php namespace Foo\Bar;
@@ -140,7 +140,7 @@ like this example.
  * @link         https://github.com/Zolli/BuildR
  *
  * @codeCoverageIgnore
- * @cosingStandardIgnore
+ * @codingStandardIgnore
  */
  class Hello {
  

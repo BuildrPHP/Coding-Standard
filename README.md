@@ -16,7 +16,7 @@ a guide for basic code structure. But soon it will contains many example code.
 
 - [ ] Add Closures
 - [ ] Add anonymous classes
-- [ ] Add example codes
+- [X] Add example codes
 - [ ] Add PHP7 strict typing section
 
 ### License
