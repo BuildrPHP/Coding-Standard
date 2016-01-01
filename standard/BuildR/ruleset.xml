@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="BuildrStandard">
+<ruleset name="BuildR">
     <description>Coding standard for BuildR project</description>
 
     <!-- Some default ignores -->
@@ -13,10 +13,8 @@
     <!-- Include the whole PSR-1 standard -->
     <rule ref="PSR1"/>
 
-    <!-- Disallow todos in doc blocks -->
+    <!-- Disallow 'TODO' and 'FIXME' in doc blocks -->
     <rule ref="Generic.Commenting.Todo"/>
-
-    <!-- Disallow FIXME comments -->
     <rule ref="Generic.Commenting.Fixme"/>
 
     <!-- Lins must be ending with \r\n character sequence -->
